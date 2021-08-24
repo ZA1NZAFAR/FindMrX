@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="FindMrX:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>FindMrX</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="FindMrX-1.0.war">
+      <element id="artifact" artifact-name="FindMrX:war exploded" />
+    </root>
+  </artifact>
+</component>
